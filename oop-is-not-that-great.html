@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>OOP is Not That Great</title>
+	</head>
+
+	<body>
+		<h1>OOP is Not That Great</h1>
+		<h3>July 2020</h3>
+		<p>
+		If you've learned to code, you've probably learned this thing called Object Oriented Programming (OOP). Especially
+		if you've learned a language like Java, C++, Objective-C, Swift, or maybe even Python. OOP is the dominant
+		paradigm in programming education today, and (unfortunately) also in most software. Many platforms even force you
+		into some degree of OOP to use it, like developing apps for Apple's platforms (iOS, iPadOS, macOS, tvOS, watchOS, etc.).
+		</p>
+		<p>
+		People really love OOP, and they really love to teach it too. Many companies even include an object oriented design
+		question (or entire interview) in their interview process. A couple years ago, I went through Google's interview
+		process for an undergraduation software engineering (SWE) internship, and one of the technical phone screens was
+		object oriented design (and the easiest question of the interview process).
+		</p>
+		<p>
+		So this begs the question: why does everyone think OOP is so great? And the natural followup: are they right?
+		Unfortunately, the benefits are OOP are really only applicable in a small number of contexts, and it's way
+		overused and overtaught in the industry.
+		</p>
+		<p>
+		Let's tackle the first question. I think many people love OOP and think it's great because it is more natural and
+		less difficult to reason by analogy. By that I mean, programming is about translating real world, human problems
+		into code that a computer can execute. Our brains tend to think in terms of objects and many of the main features
+		of OOP in real life. Thus, many think it's best to directly translate this to code. Why not code like we tend to
+		think? This is a perfectly reasonable conclusion to come to. The problem is that our brain's are far more nuanced
+		than the basic features of OOP, and as a result, OOP tends to abstract too much.
+		</p>
+		<p>
+		The main problems of OOP stem from the fact that there are unique challenges to tackle when writing computer
+		programs that we simply don't need to think about in everyday life, so reasoning by analogy leads us astray.
+		Forcing the use of OOP when a problem is not naturally solved by OOP leads to poor code design and lots of bugs.
+		Things like data encapsulation, while sounding like a fantastic feature, can actually make debugging significantly
+		more difficult. OOP gives rise to the popular singleton pattern, which is almost universally bad (global shared state).
+		OOP breaks down tremendously with multithreaded concurrent programming. The list of problems goes on, seemingly forever.
+		</p>
+		<p>
+		So what should we do? That's simple: stop loving OOP! While it may be the predominant paradigm in the industry,
+		your software will probably get significantly better if you adopt a procedural paradigm. You will write less bugs,
+		and spend less time debugging. Preferably, you'll also use a function language like Haskell or OCaml. It seems, to me
+		at least, that the industry is moving towards functional more and more as the multicore revolution takes over, but
+		only time will truly tell. But if anything, use this as an opportunity to question the status quo in software today.
+		Even if you continue to love OOP, perhaps take some time to use a procedural or functional language. At worst, it's
+		a fantastic mental exercise to think about code and solving programming problems in a completely different way. And
+		at best, you discover the multitude of benefits from moving away from OOP.
+		</p>
+	</body>
+
+</html>
